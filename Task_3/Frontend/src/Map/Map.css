@@ -1,0 +1,32 @@
+.map-container {
+  position: relative;
+  width: 1200px; /* Fixed size box */
+  height: 600px; /* Fixed size box */
+  overflow: hidden;
+  border: 1px solid #000;
+  cursor: grab;
+  border-radius: 20px;
+  margin: 30px;
+}
+
+.cell {
+  position: absolute;
+  width: 40px; /* Combined 4 cells into 1 */
+  height: 40px; /* Combined 4 cells into 1 */
+  background-color: rgb(151, 151, 151);
+  border: 1px solid #2c2c2c; /* Adjusted border size for better performance */
+}
+
+.cell:hover {
+  background-color: deepskyblue;
+}
+
+.marker {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}

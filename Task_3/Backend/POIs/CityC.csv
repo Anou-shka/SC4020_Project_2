@@ -1,0 +1,1238 @@
+x,y,category,POI_count
+5,147,Real Estate,14
+6,178,Real Estate,11
+6,193,Park,11
+7,177,Clothes Store,55
+7,177,DIY Store,25
+8,195,Hospital,12
+9,149,Real Estate,11
+9,196,Transit Station,14
+11,149,Real Estate,17
+11,149,Hair Salon,11
+11,154,Transit Station,11
+11,171,Real Estate,20
+11,172,Real Estate,11
+11,196,Transit Station,11
+12,150,Clothes Store,12
+12,153,Transit Station,13
+12,171,Real Estate,15
+12,173,Real Estate,17
+12,174,Clothes Store,32
+13,152,Transit Station,15
+13,168,Real Estate,39
+13,169,Real Estate,18
+14,156,Real Estate,26
+14,157,Real Estate,14
+14,169,Real Estate,17
+14,195,Heavy Industry,13
+15,155,Real Estate,36
+15,156,Real Estate,32
+15,156,Hair Salon,11
+15,157,Real Estate,19
+15,163,Transit Station,13
+15,167,Real Estate,11
+16,154,Real Estate,21
+16,155,Real Estate,46
+16,156,Real Estate,58
+16,156,Japanese restaurant,32
+16,156,Hair Salon,32
+16,156,Bar,25
+16,156,Transit Station,20
+16,156,Hospital,18
+16,156,Fishing,11
+16,156,Accountant Office,11
+16,157,Real Estate,23
+16,161,Real Estate,11
+16,162,Real Estate,21
+16,163,Real Estate,15
+16,166,Transit Station,14
+16,167,Real Estate,17
+17,153,Real Estate,12
+17,154,Real Estate,20
+17,156,Real Estate,25
+17,157,Real Estate,13
+17,159,Real Estate,14
+17,161,Real Estate,15
+17,162,Real Estate,28
+17,162,Hair Salon,11
+17,163,Real Estate,24
+17,163,Transit Station,14
+17,163,Driving School,12
+17,166,Real Estate,12
+17,171,Real Estate,14
+17,174,Real Estate,12
+18,150,Real Estate,11
+18,151,Real Estate,16
+18,152,Real Estate,19
+18,154,Real Estate,18
+18,155,Real Estate,16
+18,156,Real Estate,34
+18,156,Hospital,14
+18,156,Hair Salon,14
+18,156,Transit Station,11
+18,157,Real Estate,61
+18,157,Hair Salon,15
+18,158,Real Estate,20
+18,159,Real Estate,25
+18,160,Real Estate,18
+18,161,Real Estate,18
+18,162,Real Estate,34
+18,162,Hospital,12
+18,168,Real Estate,15
+18,169,Hair Salon,23
+18,169,Real Estate,18
+18,170,Real Estate,34
+18,173,Transit Station,14
+18,173,Hair Salon,11
+18,174,Real Estate,11
+18,175,Real Estate,12
+19,150,Real Estate,18
+19,151,Transit Station,14
+19,151,Real Estate,14
+19,151,Elderly Care Home,13
+19,152,Real Estate,28
+19,152,Hair Salon,13
+19,153,Real Estate,12
+19,154,Real Estate,30
+19,155,Real Estate,41
+19,156,Real Estate,50
+19,156,Hair Salon,28
+19,156,Transit Station,21
+19,156,Bar,15
+19,156,Bank,15
+19,156,Fishing,14
+19,156,Laundry ,13
+19,156,Japanese restaurant,12
+19,156,Cram School,12
+19,156,Accountant Office,11
+19,157,Real Estate,55
+19,158,Real Estate,36
+19,158,Transit Station,13
+19,159,Real Estate,26
+19,161,Real Estate,31
+19,162,Real Estate,36
+19,162,Hair Salon,15
+19,162,Bank,14
+19,162,Hospital,12
+19,162,Fishing,11
+19,162,Accountant Office,11
+19,162,Transit Station,11
+19,163,Real Estate,32
+19,164,Real Estate,21
+19,165,Real Estate,19
+19,166,Real Estate,26
+19,167,Real Estate,46
+19,168,Real Estate,52
+19,169,Real Estate,33
+19,170,Real Estate,15
+19,172,Port,23
+19,174,Real Estate,11
+19,175,Real Estate,29
+19,175,Hair Salon,13
+19,176,Real Estate,33
+19,176,Hair Salon,11
+20,148,Transit Station,12
+20,150,Real Estate,16
+20,150,Transit Station,11
+20,151,Real Estate,17
+20,152,Real Estate,35
+20,153,Real Estate,28
+20,154,Real Estate,29
+20,155,Real Estate,34
+20,155,Hair Salon,13
+20,155,Hospital,12
+20,156,Real Estate,36
+20,156,Transit Station,18
+20,156,Accountant Office,13
+20,156,Hospital,13
+20,156,Building Material,11
+20,157,Real Estate,65
+20,158,Real Estate,45
+20,158,Park,23
+20,159,Real Estate,45
+20,159,Hair Salon,11
+20,160,Real Estate,45
+20,161,Real Estate,26
+20,162,Real Estate,26
+20,163,Real Estate,39
+20,164,Real Estate,65
+20,165,Real Estate,47
+20,165,Hair Salon,14
+20,165,Heavy Industry,11
+20,166,Real Estate,28
+20,167,Real Estate,55
+20,167,Transit Station,15
+20,167,Hair Salon,14
+20,167,Hospital,12
+20,168,Real Estate,20
+20,169,Real Estate,12
+20,170,Real Estate,13
+20,170,Retail Store,13
+20,171,Port,14
+20,172,Port,20
+20,174,Real Estate,13
+20,175,Real Estate,43
+20,176,Transit Station,11
+20,177,DIY Store,57
+20,177,Clothes Store,42
+20,177,Bank,31
+20,177,Hair Salon,27
+20,177,Japanese restaurant,27
+20,177,Bar,22
+20,177,Transit Station,20
+20,177,Hospital,18
+20,177,Sweets ,17
+20,177,Fishing,16
+20,177,Cram School,14
+20,177,Laundry ,12
+20,177,Café,11
+21,148,Real Estate,18
+21,149,Real Estate,20
+21,150,Real Estate,29
+21,150,Building Material,11
+21,151,Real Estate,26
+21,152,Real Estate,64
+21,152,Transit Station,14
+21,153,Real Estate,33
+21,153,Park,16
+21,153,Transit Station,12
+21,154,Real Estate,15
+21,154,Park,11
+21,155,Real Estate,37
+21,156,Real Estate,40
+21,157,Real Estate,42
+21,157,Park,18
+21,158,Park,15
+21,158,Real Estate,12
+21,159,Real Estate,30
+21,159,Park,17
+21,160,Real Estate,38
+21,160,Hair Salon,11
+21,161,Real Estate,28
+21,162,Real Estate,41
+21,163,Real Estate,19
+21,164,Real Estate,30
+21,165,Real Estate,54
+21,165,Hair Salon,21
+21,165,Transit Station,13
+21,165,Bar,12
+21,166,Real Estate,33
+21,167,Real Estate,17
+21,168,Real Estate,18
+21,170,Real Estate,11
+21,171,Port,14
+21,172,Port,22
+21,175,Real Estate,22
+21,176,Real Estate,36
+21,177,Transit Station,11
+21,177,Real Estate,11
+21,179,Real Estate,13
+22,147,Real Estate,18
+22,148,Real Estate,21
+22,149,Real Estate,32
+22,150,Real Estate,72
+22,150,Transit Station,26
+22,150,Accountant Office,14
+22,150,Laundry ,13
+22,151,Real Estate,83
+22,151,Accountant Office,13
+22,152,Real Estate,83
+22,152,Park,30
+22,152,Transit Station,24
+22,152,Bank,12
+22,152,Hair Salon,12
+22,152,Japanese restaurant,11
+22,153,Real Estate,32
+22,153,Transit Station,21
+22,153,Park,20
+22,153,Japanese restaurant,15
+22,153,Hotel,15
+22,153,Hair Salon,15
+22,153,Accountant Office,12
+22,154,Real Estate,26
+22,154,Accountant Office,15
+22,154,Hotel,14
+22,154,Transit Station,13
+22,154,NPO,12
+22,154,Park,11
+22,155,Real Estate,15
+22,156,Real Estate,29
+22,157,Real Estate,38
+22,157,Transit Station,11
+22,157,Building Material,11
+22,158,Real Estate,51
+22,159,Real Estate,16
+22,159,Elderly Care Home,15
+22,160,Real Estate,41
+22,160,Hair Salon,11
+22,161,Real Estate,64
+22,161,Hair Salon,18
+22,161,Accountant Office,16
+22,161,Transit Station,11
+22,161,Building Material,11
+22,162,Real Estate,46
+22,162,Hospital,21
+22,162,Bank,18
+22,162,Hair Salon,17
+22,162,Post Office,15
+22,162,Transit Station,14
+22,162,Bar,13
+22,162,Cram School,11
+22,162,Fishing,11
+22,163,Real Estate,31
+22,164,Real Estate,21
+22,165,Real Estate,13
+22,166,Real Estate,14
+22,168,Real Estate,11
+22,175,Real Estate,12
+22,176,Real Estate,12
+23,146,Real Estate,25
+23,146,Park,16
+23,146,Hair Salon,13
+23,146,Clothes Store,13
+23,147,Real Estate,45
+23,147,Hair Salon,21
+23,147,Western restaurant,13
+23,147,Café,11
+23,148,Real Estate,62
+23,149,Real Estate,62
+23,149,Transit Station,12
+23,150,Real Estate,131
+23,150,Transit Station,18
+23,150,Accountant Office,15
+23,151,Real Estate,98
+23,151,Transit Station,23
+23,151,Accountant Office,13
+23,151,Laundry ,11
+23,152,Real Estate,70
+23,152,Transit Station,34
+23,152,Accountant Office,26
+23,152,Japanese restaurant,24
+23,152,Wine Bar,23
+23,152,Hotel,12
+23,152,Ramen restaurant,11
+23,152,BBQ restaurant,11
+23,153,Wine Bar,391
+23,153,Japanese restaurant,352
+23,153,Bar,264
+23,153,BBQ restaurant,107
+23,153,Western restaurant,68
+23,153,Ramen restaurant,58
+23,153,Pub,46
+23,153,Hotel,40
+23,153,Transit Station,36
+23,153,Real Estate,34
+23,153,Hair Salon,26
+23,153,Accountant Office,24
+23,153,Bank,20
+23,153,Convenience Store,19
+23,153,Karaoke,18
+23,153,Café,17
+23,153,Grocery Store,17
+23,153,Indian restaurant,15
+23,153,Curry restaurant,15
+23,153,Chinese restaurant,14
+23,153,Sweets ,14
+23,153,Food,11
+23,154,Wine Bar,70
+23,154,Japanese restaurant,52
+23,154,Bar,47
+23,154,Real Estate,30
+23,154,Transit Station,28
+23,154,Accountant Office,19
+23,154,Hotel,16
+23,154,Hair Salon,16
+23,154,Heavy Industry,16
+23,155,Real Estate,11
+23,156,Real Estate,33
+23,156,Transit Station,18
+23,156,Heavy Industry,14
+23,157,Real Estate,47
+23,158,Real Estate,29
+23,159,Real Estate,21
+23,159,Bank,14
+23,159,Clothes Store,11
+23,160,Real Estate,47
+23,160,Accountant Office,11
+23,161,Real Estate,32
+23,162,Real Estate,24
+23,163,Real Estate,19
+23,163,Heavy Industry,18
+23,164,Real Estate,23
+23,165,Real Estate,24
+23,165,Accountant Office,13
+23,166,Real Estate,11
+23,168,Driving School,12
+23,168,Building Material,12
+23,168,Real Estate,11
+24,144,Real Estate,13
+24,144,Transit Station,11
+24,145,Real Estate,20
+24,146,Real Estate,47
+24,146,Hospital,26
+24,146,Hair Salon,23
+24,146,Transit Station,20
+24,146,Accountant Office,19
+24,146,Japanese restaurant,15
+24,146,Cram School,15
+24,146,Chiropractic,13
+24,146,Café,11
+24,147,Real Estate,78
+24,147,Hair Salon,45
+24,147,Japanese restaurant,25
+24,147,Accountant Office,22
+24,147,Transit Station,19
+24,147,Sweets ,17
+24,147,Café,16
+24,147,Interior Shop,16
+24,147,Western restaurant,14
+24,147,Wine Bar,14
+24,147,Laundry ,14
+24,147,Hospital,12
+24,147,Chiropractic,12
+24,147,Grocery Store,11
+24,147,Cram School,11
+24,147,Building Material,11
+24,147,Bar,11
+24,148,Real Estate,81
+24,148,Accountant Office,49
+24,148,Hair Salon,27
+24,148,NPO,21
+24,148,Transit Station,20
+24,148,Laundry ,18
+24,148,Building Material,15
+24,148,Chiropractic,15
+24,148,School,14
+24,148,Bank,13
+24,148,Heavy Industry,13
+24,148,Fishing,13
+24,148,Café,13
+24,148,Elderly Care Home,13
+24,148,Cram School,12
+24,148,Lawyer Office,11
+24,149,Real Estate,62
+24,149,Accountant Office,54
+24,149,Hair Salon,33
+24,149,Hospital,30
+24,149,Transit Station,27
+24,149,Lawyer Office,26
+24,149,NPO,20
+24,149,Bank,16
+24,149,Building Material,15
+24,149,Café,15
+24,149,Japanese restaurant,13
+24,149,Laundry ,12
+24,149,Drug Store,12
+24,149,Bar,11
+24,150,Accountant Office,78
+24,150,Lawyer Office,49
+24,150,Real Estate,42
+24,150,Transit Station,29
+24,150,Heavy Industry,25
+24,150,NPO,19
+24,150,IT Office,16
+24,150,Japanese restaurant,16
+24,150,Hair Salon,16
+24,150,Building Material,16
+24,150,Laundry ,14
+24,150,Hospital,14
+24,150,Retail Store,14
+24,150,Bank,13
+24,150,Café,12
+24,151,Accountant Office,109
+24,151,Lawyer Office,80
+24,151,Transit Station,55
+24,151,Real Estate,49
+24,151,Heavy Industry,40
+24,151,Bank,30
+24,151,IT Office,27
+24,151,Japanese restaurant,25
+24,151,Building Material,24
+24,151,Hospital,22
+24,151,Bar,21
+24,151,NPO,21
+24,151,Laundry ,18
+24,151,Retail Store,16
+24,151,Western restaurant,15
+24,151,Hair Salon,13
+24,151,Café,13
+24,151,Hotel,12
+24,152,Accountant Office,119
+24,152,Hair Salon,116
+24,152,Japanese restaurant,77
+24,152,Wine Bar,66
+24,152,Real Estate,62
+24,152,Bar,58
+24,152,Heavy Industry,55
+24,152,Western restaurant,49
+24,152,Transit Station,41
+24,152,Building Material,35
+24,152,Café,34
+24,152,IT Office,32
+24,152,NPO,32
+24,152,Bank,29
+24,152,Retail Store,28
+24,152,Laundry ,27
+24,152,Clothes Store,26
+24,152,Hospital,24
+24,152,Lawyer Office,21
+24,152,Sweets ,20
+24,152,Ramen restaurant,18
+24,152,Chinese restaurant,18
+24,152,Fishing,17
+24,152,Cram School,16
+24,152,Hotel,16
+24,152,Chiropractic,14
+24,152,Home Appliances,13
+24,152,Post Office,12
+24,153,Bar,286
+24,153,Japanese restaurant,285
+24,153,Wine Bar,225
+24,153,Hair Salon,221
+24,153,Clothes Store,198
+24,153,Western restaurant,100
+24,153,Sweets ,97
+24,153,Bank,79
+24,153,Café,74
+24,153,Accountant Office,64
+24,153,Hospital,52
+24,153,DIY Store,48
+24,153,BBQ restaurant,48
+24,153,Transit Station,39
+24,153,Ramen restaurant,35
+24,153,Fishing,35
+24,153,Interior Shop,35
+24,153,Heavy Industry,29
+24,153,Pub,24
+24,153,Chiropractic,23
+24,153,Post Office,21
+24,153,Grocery Store,20
+24,153,Retail Store,18
+24,153,Indian restaurant,18
+24,153,Convenience Store,18
+24,153,Real Estate,18
+24,153,Drug Store,18
+24,153,Laundry ,17
+24,153,Cram School,16
+24,153,Sports Store,16
+24,153,Hotel,15
+24,153,Karaoke,15
+24,153,Swimming Pool,14
+24,153,Food,14
+24,153,NPO,14
+24,153,Creative cuisine,13
+24,153,Curry restaurant,13
+24,153,Bakery,12
+24,153,Chinese restaurant,12
+24,153,Pizza,11
+24,154,Hair Salon,142
+24,154,Japanese restaurant,105
+24,154,Bar,85
+24,154,Wine Bar,80
+24,154,Clothes Store,79
+24,154,Accountant Office,54
+24,154,Western restaurant,49
+24,154,Transit Station,47
+24,154,Real Estate,42
+24,154,Café,37
+24,154,Sweets ,31
+24,154,Grocery Store,25
+24,154,Fishing,24
+24,154,Retail Store,20
+24,154,Bank,20
+24,154,Heavy Industry,20
+24,154,Sports Store,20
+24,154,Chiropractic,19
+24,154,BBQ restaurant,18
+24,154,Hotel,17
+24,154,Interior Shop,16
+24,154,Home Appliances,16
+24,154,Hospital,15
+24,154,Ramen restaurant,12
+24,154,Building Material,11
+24,154,Curry restaurant,11
+24,154,Laundry ,11
+24,155,Real Estate,49
+24,155,Transit Station,24
+24,155,Accountant Office,14
+24,155,Heavy Industry,13
+24,156,Real Estate,39
+24,156,Heavy Industry,11
+24,157,Real Estate,61
+24,157,Transit Station,17
+24,157,Hair Salon,15
+24,157,Bank,14
+24,158,Real Estate,36
+24,158,Heavy Industry,15
+24,158,Transit Station,13
+24,158,Building Material,11
+24,159,Real Estate,27
+24,159,Heavy Industry,16
+24,159,Accountant Office,15
+24,160,Heavy Industry,11
+24,160,NPO,11
+24,161,Heavy Industry,11
+24,162,Heavy Industry,11
+24,163,Heavy Industry,12
+24,163,Retail Store,11
+24,163,Real Estate,11
+24,165,Real Estate,24
+24,166,Real Estate,16
+24,167,Real Estate,17
+24,168,Real Estate,11
+24,179,Real Estate,12
+25,141,Real Estate,12
+25,143,Real Estate,14
+25,144,Real Estate,32
+25,145,Real Estate,34
+25,145,Cram School,19
+25,145,Hair Salon,15
+25,145,Transit Station,15
+25,145,Hospital,14
+25,146,Real Estate,78
+25,146,Hair Salon,15
+25,146,Transit Station,11
+25,147,Real Estate,54
+25,147,Accountant Office,13
+25,148,Real Estate,47
+25,148,Accountant Office,19
+25,149,Real Estate,29
+25,149,Accountant Office,17
+25,149,Transit Station,15
+25,149,Heavy Industry,13
+25,150,Heavy Industry,23
+25,150,Accountant Office,20
+25,150,Real Estate,20
+25,150,Building Material,19
+25,150,NPO,18
+25,150,Transit Station,16
+25,150,Retail Store,12
+25,150,Lawyer Office,12
+25,151,Accountant Office,61
+25,151,Lawyer Office,32
+25,151,Heavy Industry,24
+25,151,Laundry ,21
+25,151,Real Estate,18
+25,151,IT Office,13
+25,152,NPO,94
+25,152,Accountant Office,52
+25,152,Heavy Industry,48
+25,152,Bank,40
+25,152,Transit Station,22
+25,152,IT Office,20
+25,152,Lawyer Office,17
+25,152,Laundry ,15
+25,152,Real Estate,14
+25,152,Building Material,13
+25,152,Retail Store,12
+25,152,Café,11
+25,153,Accountant Office,94
+25,153,Bank,90
+25,153,NPO,86
+25,153,Japanese restaurant,86
+25,153,Hair Salon,81
+25,153,Clothes Store,70
+25,153,Hospital,66
+25,153,Heavy Industry,66
+25,153,Bar,58
+25,153,Laundry ,56
+25,153,Transit Station,51
+25,153,IT Office,37
+25,153,Real Estate,35
+25,153,Western restaurant,34
+25,153,Building Material,34
+25,153,Café,33
+25,153,Retail Store,33
+25,153,Sweets ,32
+25,153,Fishing,26
+25,153,Recruitment Office,25
+25,153,Wine Bar,22
+25,153,Lawyer Office,22
+25,153,Parking Area,15
+25,153,Interior Shop,15
+25,153,Convenience Store,15
+25,153,Electronics Store,14
+25,153,Chinese restaurant,14
+25,153,Hotel,14
+25,153,Post Office,13
+25,153,Curry restaurant,12
+25,153,Cram School,11
+25,153,Home Appliances,11
+25,153,Ramen restaurant,11
+25,154,Accountant Office,59
+25,154,Heavy Industry,48
+25,154,Transit Station,46
+25,154,Real Estate,40
+25,154,Building Material,27
+25,154,Hair Salon,27
+25,154,NPO,26
+25,154,Hospital,24
+25,154,Bank,23
+25,154,Clothes Store,23
+25,154,Retail Store,23
+25,154,IT Office,18
+25,154,Laundry ,18
+25,154,Café,17
+25,154,Sweets ,16
+25,154,Home Appliances,15
+25,154,Western restaurant,14
+25,154,Japanese restaurant,14
+25,154,Lawyer Office,12
+25,154,Bar,11
+25,155,Real Estate,35
+25,155,Accountant Office,32
+25,155,Transit Station,31
+25,155,Heavy Industry,24
+25,155,Retail Store,18
+25,155,Bank,13
+25,155,Home Appliances,11
+25,156,Accountant Office,27
+25,156,Real Estate,25
+25,156,Heavy Industry,22
+25,156,Retail Store,16
+25,156,Building Material,15
+25,156,Transit Station,11
+25,157,Real Estate,33
+25,158,Real Estate,25
+25,159,Heavy Industry,14
+25,159,Real Estate,11
+25,162,Heavy Industry,14
+25,163,Real Estate,13
+25,164,Real Estate,15
+25,164,Building Material,15
+25,167,Real Estate,14
+25,168,Building Material,12
+25,180,Real Estate,33
+25,183,Real Estate,11
+26,141,Real Estate,11
+26,142,Real Estate,16
+26,143,Real Estate,12
+26,144,Driving School,13
+26,145,Real Estate,22
+26,145,Transit Station,15
+26,145,Driving School,12
+26,146,Real Estate,20
+26,147,Real Estate,26
+26,147,Retail Store,13
+26,147,Heavy Industry,12
+26,147,Building Material,11
+26,148,Real Estate,16
+26,148,Accountant Office,12
+26,148,Transit Station,11
+26,149,Real Estate,20
+26,149,Sweets ,16
+26,149,Bank,14
+26,149,Accountant Office,12
+26,149,Heavy Industry,12
+26,149,Laundry ,12
+26,149,Clothes Store,11
+26,150,Real Estate,35
+26,150,Heavy Industry,18
+26,150,Accountant Office,13
+26,151,Real Estate,24
+26,151,Transit Station,14
+26,152,Clothes Store,137
+26,152,NPO,102
+26,152,Heavy Industry,81
+26,152,Accountant Office,78
+26,152,Japanese restaurant,74
+26,152,Sweets ,64
+26,152,Bar,53
+26,152,DIY Store,50
+26,152,Bank,50
+26,152,Transit Station,44
+26,152,Laundry ,43
+26,152,Hospital,42
+26,152,Hair Salon,41
+26,152,Recruitment Office,37
+26,152,Real Estate,34
+26,152,Building Material,34
+26,152,Cram School,32
+26,152,Café,25
+26,152,IT Office,25
+26,152,Hotel,23
+26,152,Retail Store,21
+26,152,Fishing,21
+26,152,Food,20
+26,152,Western restaurant,20
+26,152,Lawyer Office,17
+26,152,Interior Shop,17
+26,152,Home Appliances,16
+26,152,Electronics Store,15
+26,152,Grocery Store,14
+26,152,Chiropractic,12
+26,152,Wine Bar,12
+26,152,Drug Store,12
+26,152,Publisher Office,12
+26,152,Convenience Store,11
+26,153,DIY Store,227
+26,153,Clothes Store,174
+26,153,NPO,143
+26,153,Bank,89
+26,153,Japanese restaurant,68
+26,153,Sweets ,68
+26,153,Heavy Industry,67
+26,153,Accountant Office,64
+26,153,Hair Salon,56
+26,153,Transit Station,51
+26,153,Hospital,48
+26,153,Bar,42
+26,153,Café,36
+26,153,Laundry ,27
+26,153,IT Office,23
+26,153,Food,22
+26,153,Fishing,22
+26,153,Real Estate,21
+26,153,Recruitment Office,20
+26,153,Building Material,20
+26,153,Interior Shop,19
+26,153,Retail Store,18
+26,153,Western restaurant,18
+26,153,Lawyer Office,17
+26,153,Home Appliances,16
+26,153,Convenience Store,15
+26,153,Electronics Store,15
+26,153,Swimming Pool,13
+26,153,Drug Store,13
+26,153,Glasses,13
+26,153,Post Office,12
+26,153,Chinese restaurant,12
+26,153,Sports Store,12
+26,153,Ramen restaurant,11
+26,154,Transit Station,34
+26,154,Accountant Office,27
+26,154,Real Estate,24
+26,154,Bank,20
+26,154,Heavy Industry,18
+26,154,Building Material,12
+26,155,Accountant Office,23
+26,155,Heavy Industry,17
+26,155,DIY Store,12
+26,155,Sports Store,11
+26,155,Real Estate,11
+26,156,Real Estate,18
+26,156,Transit Station,12
+26,157,Heavy Industry,15
+26,157,Real Estate,12
+26,158,Accountant Office,13
+26,158,Heavy Industry,11
+26,158,Real Estate,11
+26,159,Port,14
+26,162,Building Material,11
+26,165,Real Estate,12
+26,167,Real Estate,13
+26,168,Building Material,11
+26,181,Real Estate,33
+26,182,Real Estate,29
+27,136,Real Estate,17
+27,142,Real Estate,37
+27,143,Real Estate,54
+27,143,Hair Salon,18
+27,143,Transit Station,15
+27,143,Elderly Care Home,11
+27,144,Real Estate,66
+27,144,Hair Salon,11
+27,145,Real Estate,35
+27,145,Transit Station,11
+27,146,Retail Store,45
+27,146,Grocery Store,14
+27,147,Retail Store,65
+27,147,Grocery Store,58
+27,147,Japanese restaurant,22
+27,148,Real Estate,20
+27,148,Retail Store,11
+27,149,Hospital,20
+27,149,Transit Station,17
+27,149,Real Estate,17
+27,152,Real Estate,42
+27,152,Accountant Office,30
+27,152,Heavy Industry,27
+27,152,Transit Station,23
+27,152,NPO,15
+27,152,Cram School,13
+27,152,Hospital,13
+27,152,Building Material,12
+27,152,Bank,11
+27,153,Transit Station,38
+27,153,Real Estate,36
+27,153,Accountant Office,25
+27,153,Heavy Industry,22
+27,153,Lawyer Office,15
+27,153,NPO,14
+27,153,Bank,12
+27,153,Laundry ,12
+27,153,Hospital,11
+27,153,Cram School,11
+27,154,Real Estate,45
+27,154,Heavy Industry,15
+27,154,Accountant Office,15
+27,154,Laundry ,11
+27,155,Real Estate,29
+27,156,Real Estate,23
+27,156,Transit Station,12
+27,157,Clothes Store,25
+27,161,Heavy Industry,14
+27,162,Port,12
+27,164,Real Estate,11
+27,165,Real Estate,15
+27,166,Heavy Industry,12
+27,166,Building Material,11
+27,167,Port,11
+27,182,Real Estate,12
+28,138,Real Estate,13
+28,139,Real Estate,11
+28,140,Real Estate,19
+28,140,Hair Salon,16
+28,140,Bank,11
+28,141,Real Estate,22
+28,142,Real Estate,31
+28,143,Real Estate,63
+28,143,Hair Salon,34
+28,143,Wine Bar,28
+28,143,Bank,25
+28,143,Transit Station,24
+28,143,Japanese restaurant,23
+28,143,Hospital,22
+28,143,Bar,20
+28,143,Fishing,15
+28,143,Chiropractic,14
+28,143,Cram School,13
+28,144,Real Estate,43
+28,144,Bar,27
+28,144,Japanese restaurant,23
+28,144,Hair Salon,22
+28,144,Wine Bar,22
+28,144,Transit Station,15
+28,152,Real Estate,49
+28,152,Transit Station,23
+28,152,Heavy Industry,14
+28,152,Café,13
+28,152,Curry restaurant,11
+28,152,Bank,11
+28,153,Real Estate,57
+28,153,Heavy Industry,17
+28,153,Transit Station,12
+28,153,Hair Salon,11
+28,153,Building Material,11
+28,154,Real Estate,29
+28,155,Real Estate,33
+28,155,Hospital,17
+28,155,Hair Salon,15
+28,155,Accountant Office,11
+28,156,Real Estate,33
+28,157,Real Estate,45
+28,157,Heavy Industry,15
+28,158,Real Estate,18
+28,159,Real Estate,11
+28,160,Real Estate,12
+28,163,Clothes Store,25
+28,171,Port,13
+29,137,Real Estate,14
+29,138,Real Estate,13
+29,139,Driving School,13
+29,140,Real Estate,33
+29,140,Transit Station,14
+29,140,Hospital,13
+29,141,Real Estate,32
+29,142,Real Estate,22
+29,143,Real Estate,18
+29,144,Real Estate,24
+29,144,Hospital,18
+29,144,Transit Station,16
+29,144,Japanese restaurant,13
+29,145,Real Estate,25
+29,145,Hair Salon,11
+29,146,Real Estate,26
+29,151,Real Estate,61
+29,151,Transit Station,16
+29,152,Real Estate,63
+29,152,Hair Salon,16
+29,152,Transit Station,13
+29,152,Elderly Care Home,13
+29,152,Hospital,12
+29,152,Accountant Office,11
+29,153,Real Estate,42
+29,154,Real Estate,36
+29,154,Building Material,11
+29,155,Real Estate,30
+29,156,Real Estate,38
+29,157,Real Estate,51
+29,157,Transit Station,17
+29,157,Hospital,15
+29,157,Hair Salon,12
+29,158,Real Estate,30
+29,164,Heavy Industry,22
+29,174,Driving School,11
+30,135,Real Estate,13
+30,137,Transit Station,12
+30,138,Real Estate,24
+30,138,Hospital,19
+30,138,Cram School,15
+30,138,Hair Salon,13
+30,139,Real Estate,17
+30,140,Real Estate,17
+30,141,Real Estate,16
+30,142,Real Estate,15
+30,146,Real Estate,21
+30,147,Real Estate,18
+30,148,Real Estate,16
+30,150,Real Estate,31
+30,151,Real Estate,74
+30,151,Transit Station,24
+30,151,Hair Salon,20
+30,151,Accountant Office,16
+30,151,Japanese restaurant,12
+30,152,Real Estate,67
+30,153,Real Estate,35
+30,153,Building Material,14
+30,153,Accountant Office,13
+30,154,Real Estate,13
+30,155,Real Estate,25
+30,155,Building Material,16
+30,156,Real Estate,32
+30,157,Real Estate,36
+30,158,Real Estate,29
+30,159,Real Estate,11
+30,163,Real Estate,11
+30,164,Driving School,12
+30,165,Driving School,11
+30,166,Heavy Industry,14
+30,188,Real Estate,11
+31,136,Real Estate,14
+31,136,Driving School,11
+31,137,Real Estate,19
+31,138,Real Estate,24
+31,140,Real Estate,12
+31,141,Real Estate,23
+31,146,Real Estate,16
+31,147,Real Estate,14
+31,148,Real Estate,14
+31,150,Real Estate,39
+31,151,Real Estate,40
+31,151,Bar,37
+31,151,Japanese restaurant,27
+31,151,Hair Salon,21
+31,151,Transit Station,19
+31,151,Fishing,14
+31,151,Wine Bar,13
+31,151,Hospital,13
+31,151,Western restaurant,12
+31,151,Sweets ,11
+31,151,Pub,11
+31,151,Accountant Office,11
+31,152,Real Estate,34
+31,152,Transit Station,16
+31,152,Accountant Office,12
+31,152,Driving School,11
+31,153,Real Estate,32
+31,154,Real Estate,20
+31,155,Real Estate,26
+31,156,Real Estate,47
+31,157,Real Estate,62
+31,157,Hair Salon,25
+31,157,Bank,14
+31,157,Hospital,14
+31,157,Heavy Industry,11
+31,158,Real Estate,52
+31,159,Real Estate,12
+31,164,Driving School,14
+31,188,Real Estate,17
+31,188,Bar,14
+31,188,Transit Station,13
+31,188,Wine Bar,12
+31,188,Hair Salon,11
+32,135,Real Estate,25
+32,136,Real Estate,13
+32,138,Clothes Store,55
+32,138,Bank,19
+32,138,Interior Shop,11
+32,138,Japanese restaurant,11
+32,146,Real Estate,11
+32,147,Real Estate,11
+32,148,Real Estate,26
+32,148,Hair Salon,12
+32,149,Real Estate,25
+32,150,Real Estate,44
+32,151,Real Estate,55
+32,151,Transit Station,15
+32,151,Accountant Office,14
+32,151,Building Material,13
+32,151,Hair Salon,12
+32,152,Real Estate,38
+32,153,Real Estate,17
+32,154,Real Estate,15
+32,155,Real Estate,28
+32,156,Real Estate,46
+32,157,Real Estate,27
+32,158,Real Estate,21
+32,159,Real Estate,12
+32,189,Real Estate,12
+33,135,Real Estate,16
+33,136,Heavy Industry,11
+33,139,Heavy Industry,11
+33,140,Heavy Industry,14
+33,146,Real Estate,12
+33,147,Real Estate,13
+33,149,Real Estate,22
+33,150,Real Estate,34
+33,151,Real Estate,55
+33,151,Accountant Office,19
+33,152,Real Estate,31
+33,153,Real Estate,19
+33,154,Real Estate,25
+33,155,Real Estate,34
+33,156,Real Estate,24
+33,156,Clothes Store,16
+33,156,Bank,13
+33,156,Hair Salon,11
+33,157,Real Estate,27
+34,139,Heavy Industry,12
+34,140,Heavy Industry,11
+34,149,Real Estate,30
+34,150,Real Estate,60
+34,150,Hair Salon,35
+34,150,Transit Station,29
+34,150,Bank,22
+34,150,Hospital,21
+34,150,Cram School,15
+34,150,Japanese restaurant,14
+34,150,Fishing,13
+34,150,Sweets ,13
+34,150,Laundry ,12
+34,151,Real Estate,71
+34,152,Real Estate,23
+34,153,Real Estate,21
+34,154,Real Estate,22
+34,155,Real Estate,23
+34,156,Real Estate,18
+34,157,Real Estate,23
+35,133,Real Estate,14
+35,140,Heavy Industry,24
+35,149,Real Estate,18
+35,150,Real Estate,48
+35,150,Bar,29
+35,150,Hair Salon,24
+35,150,Transit Station,15
+35,150,Japanese restaurant,13
+35,151,Real Estate,43
+35,152,Real Estate,31
+35,154,Real Estate,17
+35,156,Real Estate,25
+35,156,Bank,17
+35,156,Hospital,15
+35,156,Cram School,12
+36,131,Real Estate,34
+36,131,Bar,21
+36,131,Japanese restaurant,17
+36,131,Hair Salon,16
+36,131,Hospital,14
+36,131,Wine Bar,11
+36,132,Real Estate,21
+36,152,Real Estate,16
+36,154,Real Estate,11
+36,155,Real Estate,17
+36,156,Real Estate,23
+37,129,Real Estate,14
+37,130,Real Estate,12
+37,132,Bank,11
+37,145,Building Material,11
+37,184,Heavy Industry,11
+38,130,Real Estate,14
+38,131,Real Estate,14
+38,164,Heavy Industry,14
+39,125,Real Estate,16
+39,129,Real Estate,14
+39,133,Real Estate,18
+39,155,Real Estate,14
+39,164,Heavy Industry,19
+40,119,Heavy Industry,11
+40,134,Real Estate,12
+41,120,Heavy Industry,12
+42,91,Elderly Care Home,12
+44,162,Cram School,12
+45,138,Port,29
+47,82,Heavy Industry,12
+47,138,Port,15
+48,91,Real Estate,11
+49,82,Real Estate,11
+49,84,Grocery Store,18
+49,85,Real Estate,11
+49,87,DIY Store,28
+49,87,Clothes Store,15
+50,41,Hair Salon,11
+50,80,Real Estate,20
+50,82,Real Estate,18
+50,83,Real Estate,23
+50,83,Hair Salon,16
+50,84,Transit Station,14
+50,84,Real Estate,13
+50,85,Driving School,14
+50,85,Retail Store,12
+50,86,Grocery Store,16
+50,86,Port,15
+50,87,DIY Store,11
+51,41,Interior Shop,15
+51,80,Real Estate,18
+51,81,Community Center,11
+51,82,Japanese restaurant,42
+51,82,Bar,39
+51,82,Hair Salon,28
+51,82,Pub,20
+51,82,Real Estate,19
+51,82,Wine Bar,18
+51,82,Accountant Office,16
+51,82,Grocery Store,15
+51,82,Transit Station,14
+51,82,NPO,14
+51,82,Hospital,12
+51,83,Real Estate,29
+51,83,Japanese restaurant,23
+51,83,Bar,12
+51,84,Heavy Industry,22
+51,84,Café,17
+51,84,Sweets ,14
+51,84,Retail Store,13
+51,84,Japanese restaurant,13
+51,84,Transit Station,13
+51,85,Port,15
+52,81,Real Estate,20
+52,81,Transit Station,12
+52,81,Accountant Office,12
+52,81,Retail Store,11
+52,81,Grocery Store,11
+52,82,Japanese restaurant,42
+52,82,Clothes Store,38
+52,82,Hair Salon,33
+52,82,Bank,30
+52,82,Hospital,27
+52,82,Transit Station,27
+52,82,Real Estate,24
+52,82,Interior Shop,23
+52,82,Bar,18
+52,82,Sweets ,18
+52,82,Café,17
+52,82,Grocery Store,17
+52,82,Laundry ,16
+52,82,NPO,15
+52,82,Drug Store,14
+52,82,Western restaurant,12
+52,82,Wine Bar,12
+52,82,Heavy Industry,11
+52,82,Ramen restaurant,11
+52,82,Fishing,11
+52,83,Japanese restaurant,34
+52,83,Transit Station,24
+52,83,Heavy Industry,14
+52,83,Café,12
+52,83,Real Estate,11
+52,84,Port,17
+53,81,Real Estate,13
+53,81,Transit Station,13
+53,82,Heavy Industry,26
+53,82,Hair Salon,15
+53,146,Heavy Industry,12
+54,78,Real Estate,15
+54,82,Grocery Store,17
+54,82,Hair Salon,16
+54,82,Retail Store,15
+57,186,Real Estate,11
