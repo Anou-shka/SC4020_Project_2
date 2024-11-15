@@ -1,8 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import ConfirmationBox from './ConfirmationBox/ConfirmationBox.jsx';
 import CoordinatesInput from './CoordinatesInput/CoordinatesInput.jsx';
 import POIList from './POIList/POIList.jsx';
 import Map from './Map/Map.jsx';
+import History from './History/History.jsx';
 import './App.css';
 
 function App() {
@@ -19,6 +20,11 @@ function App() {
   // Set City
   const [city, setCity] = useState('A');
   const [selectedCity, setSelectedCity] = useState('');
+
+  // Location History
+  const [locationHistory, setLocationHistory] = useState([]);
+  const [showLocationHistory, setShowLocationHistory] = useState(false);
+  const historyRef = useRef(null);
 
   // Update POI upon city change
   const updatePOI = (city) => {
@@ -37,6 +43,7 @@ function App() {
         setCity(temp);
         setCoordinates({ x: 10, y: 10 });
         updatePOI(temp);
+        setLocationHistory([]); // Clear location history when moving to a new city
         setShowConfirmation(false);
       });
       setShowConfirmation(true);
@@ -58,6 +65,7 @@ function App() {
 
   const handleSetCoordinates = (x, y) => {
     setCoordinates({ x, y });
+    setLocationHistory(prevHistory => [...prevHistory, { x, y }]); // Update location history
     setShowCoordinatesInput(false);
   };
 
@@ -65,9 +73,17 @@ function App() {
   const [POI, setPOI] = useState([]);
   const [nearestPOI, setNearestPOI] = useState([]);
   const [showSuggestions, setShowSuggestions] = useState(false);
-
   const getNextLocation = () => {
-    fetch(`http://localhost:5000/getSuggestions?city=${city}&x=${coordinates.x}&y=${coordinates.y}`)
+    fetch(`http://localhost:5000/getSuggestions`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        city: city,
+        coordinates: locationHistory,
+      }),
+    })
       .then(response => response.json())
       .then(data => {
         if (data.suggestions && data.suggestions.length > 0) {
@@ -88,7 +104,6 @@ function App() {
       })
       .catch(error => console.error('Error fetching suggestions or nearest POI:', error));
   };
-
   const closePOIList = () => {
     setShowSuggestions(false);
   };
@@ -102,6 +117,20 @@ function App() {
     });
     setShowConfirmation(true);
   };
+
+  // Handle click outside to close location history
+  const handleClickOutside = (event) => {
+    if (historyRef.current && !historyRef.current.contains(event.target)) {
+      setShowLocationHistory(false);
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, []);
 
   return (
     <div className="App">
@@ -123,6 +152,11 @@ function App() {
           <POIList nearestPOI={nearestPOI} onClick={handleSuggestionClick} onClose={closePOIList} />
         </div>
       ) : null}
+      {showLocationHistory ? (
+        <div className="History" ref={historyRef}>
+          <History locationHistory={locationHistory} />
+        </div>
+      ) : null}
       <div className="city-boxes">
         <div className="city-box" id="A" onClick={handleCityClick}>City A</div>
         <div className="city-box" id="B" onClick={handleCityClick}>City B</div>
@@ -133,6 +167,7 @@ function App() {
       <Map currentX={coordinates.x} currentY={coordinates.y} />
       <div className="app-buttons">
         <button onClick={clickSetLocation}>Set Location</button>
+        <button onClick={() => setShowLocationHistory(true)}>Location History</button>
         <button onClick={getNextLocation}>Next Locations Suggestions</button>
       </div>
     </div>

@@ -11,7 +11,7 @@
   text-align: left;
   max-height: 450px; 
   width: 400px;
-  overflow-y: auto; /* Enable vertical scrolling */
+  overflow-y: auto; 
 }
 
 .poi-list h2 {

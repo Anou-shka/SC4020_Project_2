@@ -1,0 +1,27 @@
+.history-container {
+    background-color: rgb(179, 228, 227);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    z-index: 1000;
+    max-height: 300px;
+    overflow-y: auto; 
+  }
+
+  .history-container h2 {
+    font-size: 25px;
+    margin-top: 0;
+  }
+  
+  .history-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .history-container li {
+    margin: 5px 0;
+    font-weight: bold;
+  }
