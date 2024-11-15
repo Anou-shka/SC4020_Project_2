@@ -28,10 +28,14 @@ def make_multiple_predictions(input_sequence, num_predictions, city):
 
     city = city.upper()
 
+    print(input_sequence)
+    # Convert input_sequence to a list of tuples
+    input_sequence = [(coord['x'], coord['y']) for coord in input_sequence]
+
     input_tensor = torch.tensor(input_sequence).unsqueeze(0).float() 
 
     model = LSTMModel()
-    model.load_state_dict(torch.load(f'./weights/city{city}.pth'))
+    model.load_state_dict(torch.load(f'../model/weights/city{city}.pth'))
     model.eval()
 
     seq_length = torch.tensor([len(input_sequence)])  
@@ -49,8 +53,26 @@ def make_multiple_predictions(input_sequence, num_predictions, city):
             input_tensor = torch.tensor(extended_sequence[-len(input_sequence):]).unsqueeze(0).float()
             seq_length = torch.tensor([len(input_tensor[0])])
 
-    return extended_sequence
+    return extended_sequence[1:]
 
+def load_poi_data(city):
+    city_file_path = f'./POIs/City{city}.csv'
+    try:
+        city_poi_df = pd.read_csv(city_file_path)
+        return city_poi_df
+    except FileNotFoundError:
+        print("file not found")
+        return None
+    
+def get_categories(city, coordinates):
+    city_poi_df = load_poi_data(city)
+    if city_poi_df is not None:
+        x, y = coordinates
+        category = city_poi_df[(city_poi_df['x'] == x) & (city_poi_df['y'] == y)]['category']
+        if not category.empty:
+            return category.iloc[0]
+    return None
+    
 
 def get_suggestions(history , city):
     """
@@ -70,14 +92,17 @@ def get_suggestions(history , city):
     # Placeholder for model integration, the model should return a list of suggestions in (x,y,category) format
     # Convert predictions to a list of suggestions
     predictions = make_multiple_predictions(history, 5, city)
+
     suggestions = []
     for prediction in predictions:
-        suggestion = {
-            'x': prediction[0].item(),
-            'y': prediction[1].item(),
-            'category': prediction[2].item(),
-             'distance': round(calculate_displacement(history[-1][0], history[-1][1], prediction[0].item(), prediction[1].item()) / 2, 2)  # Calculate distance based on current location
-        }
-        suggestions.append(suggestion)
+        category = get_categories(city, prediction)
+        if category is not None:
+            suggestion = {
+            'x': prediction[0],
+            'y': prediction[1],
+            'category': category,
+            'distance': round(calculate_displacement(history[-1]['x'], history[-1]['y'], prediction[0], prediction[1]) / 2, 2)  # Calculate distance based on current location
+}
+            suggestions.append(suggestion)
 
     return suggestions[:10] # Return 10 suggestions
