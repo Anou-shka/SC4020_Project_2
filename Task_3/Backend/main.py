@@ -29,21 +29,18 @@ def getAllPOIs():
     return jsonify({"POIs": POIs})
 
 
-@app.route('/getSuggestions', methods=['GET'])
+@app.route('/getSuggestions', methods=['POST'])
 def getSuggestions():
-    city = request.args.get('city')
-    city = request.args.get('city')
-    x = request.args.get('x')
-    y = request.args.get('y')
-
-    if not city or not x or not y:
-        return "City and coordinates are required", 400
-
-    # Placeholder for model integration, import suggestion_controller and call the function to get next location suggestion from the model
-  
-    suggestions = get_suggestions(x, y, city)
+    data = request.get_json()
+    city = data.get('city')
+    coordinates = data.get('coordinates') #history of coordinates
+    print(coordinates)
+    if not city or not coordinates:
+       suggestions = []
+    else:
+      # Placeholder for model integration, import suggestion_controller and call the function to get next location suggestion from the model
+      suggestions = get_suggestions(coordinates, city)
     return jsonify({"suggestions": suggestions})
-
 # Run the app
 if __name__ == '__main__':
     app.run(debug=True)
