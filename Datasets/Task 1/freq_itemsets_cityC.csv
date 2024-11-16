@@ -1,0 +1,82 @@
+,support,itemsets
+0,0.5715164564749308,frozenset({'Transit Station'})
+1,0.48262073208243617,frozenset({'Park'})
+2,0.4727776068901876,frozenset({'Building Material'})
+3,0.4349430944324823,frozenset({'Home Appliances'})
+4,0.42694555521378036,frozenset({'Heavy Industry'})
+5,0.3961857889880037,frozenset({'Real Estate'})
+6,0.39218701937865275,"frozenset({'Park', 'Transit Station'})"
+7,0.3857274684712396,frozenset({'Accountant Office'})
+8,0.3681944017225469,"frozenset({'Building Material', 'Transit Station'})"
+9,0.3534297139341741,frozenset({'Elderly Care Home'})
+10,0.34943094432482313,"frozenset({'Transit Station', 'Real Estate'})"
+11,0.34112580744386345,frozenset({'Hair Salon'})
+12,0.3383574284835435,"frozenset({'Park', 'Building Material'})"
+13,0.337742233159028,"frozenset({'Transit Station', 'Home Appliances'})"
+14,0.33620424484773914,"frozenset({'Park', 'Real Estate'})"
+15,0.3297446939403261,"frozenset({'Building Material', 'Home Appliances'})"
+16,0.32605352199323284,frozenset({'Driving School'})
+17,0.32482313134420177,"frozenset({'Transit Station', 'Heavy Industry'})"
+18,0.32020916641033526,"frozenset({'Transit Station', 'Accountant Office'})"
+19,0.3180559827745309,"frozenset({'Building Material', 'Real Estate'})"
+20,0.3171331897877576,frozenset({'Laundry '})
+21,0.3094432482313134,"frozenset({'Building Material', 'Heavy Industry'})"
+22,0.3091356505690557,"frozenset({'Hair Salon', 'Transit Station'})"
+23,0.3054444786219625,"frozenset({'Park', 'Home Appliances'})"
+24,0.3032912949861581,"frozenset({'Park', 'Transit Station', 'Real Estate'})"
+25,0.30175330667486927,"frozenset({'Transit Station', 'Elderly Care Home'})"
+26,0.30144570901261153,frozenset({'Hospital'})
+27,0.30113811135035373,frozenset({'Bank'})
+28,0.2996001230390649,"frozenset({'Park', 'Building Material', 'Transit Station'})"
+29,0.2977545370655183,"frozenset({'Building Material', 'Accountant Office'})"
+30,0.29437096278068287,"frozenset({'Park', 'Accountant Office'})"
+31,0.2931405721316518,"frozenset({'Park', 'Hair Salon'})"
+32,0.29098738849584743,"frozenset({'Home Appliances', 'Real Estate'})"
+33,0.2894494001845586,"frozenset({'Building Material', 'Transit Station', 'Real Estate'})"
+34,0.28791141187326974,frozenset({'Retail Store'})
+35,0.2872962165487542,"frozenset({'Heavy Industry', 'Home Appliances'})"
+36,0.28545063057520764,"frozenset({'Hair Salon', 'Real Estate'})"
+37,0.2848354352506921,frozenset({'Fishing'})
+38,0.2820670562903722,"frozenset({'Park', 'Heavy Industry'})"
+39,0.2817594586281144,"frozenset({'Park', 'Elderly Care Home'})"
+40,0.28052906797908334,"frozenset({'Transit Station', 'Laundry '})"
+41,0.2802214703168256,"frozenset({'Building Material', 'Transit Station', 'Home Appliances'})"
+42,0.2786834820055368,"frozenset({'Hospital', 'Transit Station'})"
+43,0.278375884343279,"frozenset({'Accountant Office', 'Real Estate'})"
+44,0.27683789603199016,"frozenset({'Park', 'Building Material', 'Real Estate'})"
+45,0.27499231005844355,"frozenset({'Bank', 'Transit Station'})"
+46,0.27376191940941247,"frozenset({'Home Appliances', 'Accountant Office'})"
+47,0.27222393109812365,"frozenset({'Building Material', 'Elderly Care Home'})"
+48,0.27222393109812365,"frozenset({'Elderly Care Home', 'Real Estate'})"
+49,0.2716087357736081,"frozenset({'Park', 'Transit Station', 'Home Appliances'})"
+50,0.27130113811135037,"frozenset({'Hair Salon', 'Building Material'})"
+51,0.2709935404490926,"frozenset({'Park', 'Hair Salon', 'Transit Station'})"
+52,0.2697631498000615,"frozenset({'Park', 'Transit Station', 'Accountant Office'})"
+53,0.26945555213780376,"frozenset({'Heavy Industry', 'Real Estate'})"
+54,0.2673023685019994,"frozenset({'Hair Salon', 'Transit Station', 'Real Estate'})"
+55,0.2645339895416795,"frozenset({'Heavy Industry', 'Accountant Office'})"
+56,0.2642263918794217,"frozenset({'Building Material', 'Transit Station', 'Accountant Office'})"
+57,0.26361119655490617,"frozenset({'Home Appliances', 'Transit Station', 'Real Estate'})"
+58,0.2626884035681329,"frozenset({'Transit Station', 'Building Material', 'Heavy Industry'})"
+59,0.25899723162103966,"frozenset({'Park', 'Laundry '})"
+60,0.2583820362965241,"frozenset({'Accountant Office', 'Transit Station', 'Real Estate'})"
+61,0.2583820362965241,"frozenset({'Transit Station', 'Fishing'})"
+62,0.25745924330975084,"frozenset({'Laundry ', 'Real Estate'})"
+63,0.2568440479852353,"frozenset({'Park', 'Hospital'})"
+64,0.2568440479852353,"frozenset({'Hospital', 'Real Estate'})"
+65,0.25622885266071976,frozenset({'Port'})
+66,0.255921254998462,"frozenset({'Park', 'Building Material', 'Home Appliances'})"
+67,0.2553060596739465,"frozenset({'Hair Salon', 'Transit Station', 'Building Material'})"
+68,0.2549984620116887,"frozenset({'Park', 'Home Appliances', 'Real Estate'})"
+69,0.2549984620116887,"frozenset({'Park', 'Building Material', 'Transit Station', 'Real Estate'})"
+70,0.25469086434943095,"frozenset({'Transit Station', 'Driving School'})"
+71,0.2540756690249154,"frozenset({'Park', 'Hair Salon', 'Real Estate'})"
+72,0.25376807136265767,"frozenset({'Building Material', 'Home Appliances', 'Real Estate'})"
+73,0.2531528760381421,frozenset({'Interior Shop'})
+74,0.2531528760381421,"frozenset({'Transit Station', 'Park', 'Elderly Care Home'})"
+75,0.25284527837588433,frozenset({'Church'})
+76,0.2522300830513688,"frozenset({'Transit Station', 'Elderly Care Home', 'Real Estate'})"
+77,0.25192248538911105,"frozenset({'Transit Station', 'Park', 'Heavy Industry'})"
+78,0.2513072900645955,"frozenset({'Hair Salon', 'Home Appliances'})"
+79,0.25038449707782223,frozenset({'Convenience Store'})
+80,0.25007689941556444,"frozenset({'Building Material', 'Driving School'})"
