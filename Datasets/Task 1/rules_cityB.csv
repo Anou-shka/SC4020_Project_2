@@ -3,58 +3,58 @@
 1,Laundry  -> Hair Salon,3.4906898222687697
 2,Real Estate -> Hair Salon,3.3802718102020575
 3,Hair Salon -> Real Estate,3.3802718102020575
-4,"Hair Salon -> Building Material, Transit Station",3.261651481553463
-5,"Building Material, Transit Station -> Hair Salon",3.261651481553463
+4,"Hair Salon -> Transit Station, Building Material",3.261651481553463
+5,"Transit Station, Building Material -> Hair Salon",3.261651481553463
 6,Real Estate -> Accountant Office,3.0635047436121297
 7,Accountant Office -> Real Estate,3.063504743612129
 8,Accountant Office -> Hair Salon,2.741765785701712
 9,Hair Salon -> Accountant Office,2.741765785701712
 10,Real Estate -> Building Material,2.734852029477132
 11,Building Material -> Real Estate,2.734852029477132
-12,"Building Material -> Home Appliances, Heavy Industry",2.721097310903136
-13,"Home Appliances, Heavy Industry -> Building Material",2.721097310903136
+12,"Building Material -> Heavy Industry, Home Appliances",2.721097310903136
+13,"Heavy Industry, Home Appliances -> Building Material",2.721097310903136
 14,"Transit Station, Hair Salon -> Building Material",2.7112266851446707
 15,"Building Material -> Transit Station, Hair Salon",2.7112266851446707
 16,Home Appliances -> Real Estate,2.664102388432691
 17,Real Estate -> Home Appliances,2.664102388432691
-18,"Home Appliances, Transit Station -> Building Material",2.657898455543896
-19,"Building Material -> Home Appliances, Transit Station",2.657898455543896
-20,"Building Material, Heavy Industry -> Home Appliances",2.6371184026183494
-21,"Home Appliances -> Building Material, Heavy Industry",2.637118402618349
-22,"Home Appliances -> Building Material, Transit Station",2.515631389289947
-23,"Building Material, Transit Station -> Home Appliances",2.5156313892899465
+18,"Transit Station, Home Appliances -> Building Material",2.657898455543896
+19,"Building Material -> Transit Station, Home Appliances",2.657898455543896
+20,"Heavy Industry, Building Material -> Home Appliances",2.6371184026183494
+21,"Home Appliances -> Heavy Industry, Building Material",2.637118402618349
+22,"Home Appliances -> Transit Station, Building Material",2.515631389289947
+23,"Transit Station, Building Material -> Home Appliances",2.5156313892899465
 24,Building Material -> Laundry ,2.5138283914982944
 25,Laundry  -> Building Material,2.5138283914982944
-26,"Heavy Industry, Transit Station -> Building Material",2.4900589956798442
-27,"Building Material -> Heavy Industry, Transit Station",2.4900589956798442
+26,"Transit Station, Heavy Industry -> Building Material",2.4900589956798442
+27,"Building Material -> Transit Station, Heavy Industry",2.4900589956798442
 28,Building Material -> Hair Salon,2.4058344142656867
 29,Hair Salon -> Building Material,2.4058344142656867
 30,Laundry  -> Home Appliances,2.401342569214218
 31,Home Appliances -> Laundry ,2.401342569214218
-32,"Home Appliances -> Heavy Industry, Transit Station",2.388716418473997
-33,"Heavy Industry, Transit Station -> Home Appliances",2.388716418473997
+32,"Home Appliances -> Transit Station, Heavy Industry",2.388716418473997
+33,"Transit Station, Heavy Industry -> Home Appliances",2.388716418473997
 34,Hair Salon -> Home Appliances,2.3727383822300236
 35,Home Appliances -> Hair Salon,2.372738382230023
-36,"Heavy Industry -> Home Appliances, Building Material",2.31784356323867
-37,"Home Appliances, Building Material -> Heavy Industry",2.31784356323867
+36,"Heavy Industry -> Building Material, Home Appliances",2.31784356323867
+37,"Building Material, Home Appliances -> Heavy Industry",2.31784356323867
 38,Driving School -> Building Material,2.2951641608384072
 39,Building Material -> Driving School,2.2951641608384072
 40,Building Material -> Accountant Office,2.260699838187702
 41,Accountant Office -> Building Material,2.260699838187702
-42,"Building Material, Hair Salon -> Transit Station",2.259530757696927
-43,"Transit Station -> Building Material, Hair Salon",2.259530757696927
+42,"Hair Salon, Building Material -> Transit Station",2.259530757696927
+43,"Transit Station -> Hair Salon, Building Material",2.259530757696927
 44,Heavy Industry -> Real Estate,2.237579721458258
 45,Real Estate -> Heavy Industry,2.237579721458258
 46,Park -> Building Material,2.2280254965030837
 47,Building Material -> Park,2.2280254965030837
-48,"Heavy Industry -> Home Appliances, Transit Station",2.2210109190241005
-49,"Home Appliances, Transit Station -> Heavy Industry",2.2210109190241
+48,"Heavy Industry -> Transit Station, Home Appliances",2.2210109190241005
+49,"Transit Station, Home Appliances -> Heavy Industry",2.2210109190241
 50,Bank -> Transit Station,2.2143919155656087
 51,Transit Station -> Bank,2.2143919155656087
 52,Heavy Industry -> Laundry ,2.20316663580277
 53,Laundry  -> Heavy Industry,2.20316663580277
-54,"Heavy Industry -> Building Material, Transit Station",2.191312701571399
-55,"Building Material, Transit Station -> Heavy Industry",2.191312701571399
+54,"Heavy Industry -> Transit Station, Building Material",2.191312701571399
+55,"Transit Station, Building Material -> Heavy Industry",2.191312701571399
 56,Accountant Office -> Home Appliances,2.181262141065941
 57,Home Appliances -> Accountant Office,2.181262141065941
 58,Heavy Industry -> Driving School,2.1730871639833027
@@ -77,10 +77,10 @@
 75,Hair Salon -> Transit Station,2.0050174656159454
 76,Transit Station -> Grocery Store,1.9897439256133238
 77,Grocery Store -> Transit Station,1.9897439256133238
-78,"Building Material, Heavy Industry -> Transit Station",1.9883130646742442
-79,"Transit Station -> Building Material, Heavy Industry",1.9883130646742442
-80,"Home Appliances, Heavy Industry -> Transit Station",1.9681317514955543
-81,"Transit Station -> Home Appliances, Heavy Industry",1.968131751495554
+78,"Heavy Industry, Building Material -> Transit Station",1.9883130646742442
+79,"Transit Station -> Heavy Industry, Building Material",1.9883130646742442
+80,"Heavy Industry, Home Appliances -> Transit Station",1.9681317514955543
+81,"Transit Station -> Heavy Industry, Home Appliances",1.968131751495554
 82,Transit Station -> Driving School,1.9341629401707738
 83,Driving School -> Transit Station,1.9341629401707736
 84,Heavy Industry -> Building Material,1.8368175786624839

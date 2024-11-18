@@ -23,14 +23,14 @@
 21,Transit Station -> Hospital,2.3842930157775717
 22,Accountant Office -> Hair Salon,2.364954442844582
 23,Hair Salon -> Accountant Office,2.3649544428445815
-24,"Transit Station -> Building Material, Hair Salon",2.293407777176721
-25,"Building Material, Hair Salon -> Transit Station",2.293407777176721
-26,"Building Material -> Heavy Industry, Hair Salon",2.2626709478376816
-27,"Heavy Industry, Hair Salon -> Building Material",2.262670947837681
+24,"Transit Station -> Hair Salon, Building Material",2.293407777176721
+25,"Hair Salon, Building Material -> Transit Station",2.293407777176721
+26,"Building Material -> Hair Salon, Heavy Industry",2.2626709478376816
+27,"Hair Salon, Heavy Industry -> Building Material",2.262670947837681
 28,Driving School -> Hair Salon,2.240297433437275
 29,Hair Salon -> Driving School,2.240297433437275
-30,"Building Material -> Transit Station, Hair Salon",2.217954748547322
-31,"Transit Station, Hair Salon -> Building Material",2.217954748547322
+30,"Building Material -> Hair Salon, Transit Station",2.217954748547322
+31,"Hair Salon, Transit Station -> Building Material",2.217954748547322
 32,Real Estate -> Building Material,2.2169800196624205
 33,Building Material -> Real Estate,2.2169800196624205
 34,Hospital -> Building Material,2.208105645493466
@@ -39,10 +39,10 @@
 37,Transit Station -> Laundry ,2.1436990985908446
 38,Hospital -> Heavy Industry,2.1330465972520285
 39,Heavy Industry -> Hospital,2.1330465972520285
-40,"Building Material -> Home Appliances, Heavy Industry",2.1260698320685805
-41,"Home Appliances, Heavy Industry -> Building Material",2.1260698320685805
-42,"Building Material, Hair Salon -> Heavy Industry",2.12304260383092
-43,"Heavy Industry -> Building Material, Hair Salon",2.1230426038309194
+40,"Building Material -> Heavy Industry, Home Appliances",2.1260698320685805
+41,"Heavy Industry, Home Appliances -> Building Material",2.1260698320685805
+42,"Hair Salon, Building Material -> Heavy Industry",2.12304260383092
+43,"Heavy Industry -> Hair Salon, Building Material",2.1230426038309194
 44,Heavy Industry -> Bank,2.1172794640376855
 45,Bank -> Heavy Industry,2.1172794640376855
 46,"Transit Station, Heavy Industry -> Building Material",2.0923958605153548

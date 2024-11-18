@@ -1,108 +1,108 @@
 ,rule,lift
-0,"Hair Salon -> Transit Station, Real Estate",2.2424711705762075
-1,"Transit Station, Real Estate -> Hair Salon",2.2424711705762075
-2,"Hair Salon -> Park, Real Estate",2.2153650948696395
-3,"Park, Real Estate -> Hair Salon",2.215365094869639
-4,"Real Estate -> Park, Hair Salon",2.187702449929285
-5,"Park, Hair Salon -> Real Estate",2.187702449929285
+0,"Hair Salon -> Real Estate, Transit Station",2.2424711705762075
+1,"Real Estate, Transit Station -> Hair Salon",2.2424711705762075
+2,"Hair Salon -> Real Estate, Park",2.2153650948696395
+3,"Real Estate, Park -> Hair Salon",2.215365094869639
+4,"Real Estate -> Hair Salon, Park",2.187702449929285
+5,"Hair Salon, Park -> Real Estate",2.187702449929285
 6,"Hair Salon, Transit Station -> Real Estate",2.182502858378913
 7,"Real Estate -> Hair Salon, Transit Station",2.182502858378913
-8,"Transit Station, Real Estate -> Park, Building Material",2.1567533610755443
-9,"Park, Building Material -> Transit Station, Real Estate",2.1567533610755443
+8,"Real Estate, Transit Station -> Park, Building Material",2.1567533610755443
+9,"Park, Building Material -> Real Estate, Transit Station",2.1567533610755443
 10,Hospital -> Real Estate,2.1506092343769803
 11,Real Estate -> Hospital,2.1506092343769803
-12,"Real Estate -> Park, Transit Station, Building Material",2.1483086650426615
-13,"Park, Transit Station, Building Material -> Real Estate",2.1483086650426615
+12,"Real Estate -> Park, Building Material, Transit Station",2.1483086650426615
+13,"Park, Building Material, Transit Station -> Real Estate",2.1483086650426615
 14,Hair Salon -> Real Estate,2.1121148816291324
 15,Real Estate -> Hair Salon,2.1121148816291324
-16,"Real Estate -> Transit Station, Elderly Care Home",2.1098226552953316
-17,"Transit Station, Elderly Care Home -> Real Estate",2.1098226552953316
-18,"Park, Home Appliances -> Real Estate",2.107203061179811
-19,"Real Estate -> Park, Home Appliances",2.107203061179811
+16,"Real Estate -> Elderly Care Home, Transit Station",2.1098226552953316
+17,"Elderly Care Home, Transit Station -> Real Estate",2.1098226552953316
+18,"Home Appliances, Park -> Real Estate",2.107203061179811
+19,"Real Estate -> Home Appliances, Park",2.107203061179811
 20,"Real Estate -> Park, Building Material",2.065146809712027
 21,"Park, Building Material -> Real Estate",2.065146809712027
-22,"Park, Real Estate -> Building Material, Transit Station",2.059952412290256
-23,"Building Material, Transit Station -> Park, Real Estate",2.0599524122902557
+22,"Real Estate, Park -> Building Material, Transit Station",2.059952412290256
+23,"Building Material, Transit Station -> Real Estate, Park",2.0599524122902557
 24,Real Estate -> Laundry ,2.049122392177889
 25,Laundry  -> Real Estate,2.049122392177889
-26,"Building Material, Real Estate -> Park, Transit Station",2.0442818674858723
-27,"Park, Transit Station -> Building Material, Real Estate",2.0442818674858723
-28,"Transit Station, Real Estate -> Elderly Care Home",2.042360779122078
-29,"Elderly Care Home -> Transit Station, Real Estate",2.042360779122078
-30,"Real Estate -> Transit Station, Accountant Office",2.0367121914547046
-31,"Transit Station, Accountant Office -> Real Estate",2.0367121914547046
+26,"Real Estate, Building Material -> Park, Transit Station",2.0442818674858723
+27,"Park, Transit Station -> Real Estate, Building Material",2.0442818674858723
+28,"Real Estate, Transit Station -> Elderly Care Home",2.042360779122078
+29,"Elderly Care Home -> Real Estate, Transit Station",2.042360779122078
+30,"Real Estate -> Accountant Office, Transit Station",2.0367121914547046
+31,"Accountant Office, Transit Station -> Real Estate",2.0367121914547046
 32,"Hair Salon -> Building Material, Transit Station",2.032681643995772
 33,"Building Material, Transit Station -> Hair Salon",2.032681643995772
 34,"Park, Transit Station -> Hair Salon",2.025588146890857
 35,"Hair Salon -> Park, Transit Station",2.0255881468908568
 36,"Real Estate -> Building Material, Transit Station",1.9842508704473398
 37,"Building Material, Transit Station -> Real Estate",1.9842508704473398
-38,"Transit Station, Home Appliances -> Real Estate",1.9700606127459295
-39,"Real Estate -> Transit Station, Home Appliances",1.9700606127459295
+38,"Home Appliances, Transit Station -> Real Estate",1.9700606127459295
+39,"Real Estate -> Home Appliances, Transit Station",1.9700606127459295
 40,"Real Estate -> Park, Transit Station",1.9519461697722562
 41,"Park, Transit Station -> Real Estate",1.9519461697722562
 42,Real Estate -> Elderly Care Home,1.944125731800269
 43,Elderly Care Home -> Real Estate,1.944125731800269
-44,"Building Material, Home Appliances -> Real Estate",1.9424966105033836
-45,"Real Estate -> Building Material, Home Appliances",1.9424966105033834
-46,"Accountant Office -> Transit Station, Real Estate",1.916992384931599
-47,"Transit Station, Real Estate -> Accountant Office",1.9169923849315988
+44,"Home Appliances, Building Material -> Real Estate",1.9424966105033836
+45,"Real Estate -> Home Appliances, Building Material",1.9424966105033834
+46,"Accountant Office -> Real Estate, Transit Station",1.916992384931599
+47,"Real Estate, Transit Station -> Accountant Office",1.9169923849315988
 48,"Building Material, Transit Station -> Accountant Office",1.8604519006181057
 49,"Accountant Office -> Building Material, Transit Station",1.8604519006181053
 50,"Building Material -> Real Estate, Home Appliances",1.8446157570622328
 51,"Real Estate, Home Appliances -> Building Material",1.8446157570622328
-52,"Hair Salon, Real Estate -> Park",1.8442767741368322
-53,"Park -> Hair Salon, Real Estate",1.844276774136832
-54,"Home Appliances -> Building Material, Real Estate",1.834429263595053
-55,"Building Material, Real Estate -> Home Appliances",1.8344292635950528
+52,"Real Estate, Hair Salon -> Park",1.8442767741368322
+53,"Park -> Real Estate, Hair Salon",1.844276774136832
+54,"Home Appliances -> Real Estate, Building Material",1.834429263595053
+55,"Real Estate, Building Material -> Home Appliances",1.8344292635950528
 56,"Park, Transit Station -> Elderly Care Home",1.826360859400331
 57,"Elderly Care Home -> Park, Transit Station",1.8263608594003309
-58,"Building Material, Transit Station, Real Estate -> Park",1.8254037275073842
-59,"Park -> Building Material, Transit Station, Real Estate",1.8254037275073842
+58,"Real Estate, Building Material, Transit Station -> Park",1.8254037275073842
+59,"Park -> Real Estate, Building Material, Transit Station",1.8254037275073842
 60,Accountant Office -> Real Estate,1.8215963574945266
 61,Real Estate -> Accountant Office,1.8215963574945264
 62,"Park -> Hair Salon, Transit Station",1.8163681274950931
 63,"Hair Salon, Transit Station -> Park",1.8163681274950931
 64,"Real Estate, Home Appliances -> Park",1.8157557162626305
 65,"Park -> Real Estate, Home Appliances",1.8157557162626305
-66,"Park -> Building Material, Real Estate",1.803499376828371
-67,"Building Material, Real Estate -> Park",1.803499376828371
-68,"Transit Station, Real Estate -> Park",1.7984261528379966
-69,"Park -> Transit Station, Real Estate",1.7984261528379966
+66,"Park -> Real Estate, Building Material",1.803499376828371
+67,"Real Estate, Building Material -> Park",1.803499376828371
+68,"Real Estate, Transit Station -> Park",1.7984261528379966
+69,"Park -> Real Estate, Transit Station",1.7984261528379966
 70,"Park, Transit Station -> Accountant Office",1.7832360759295742
 71,"Accountant Office -> Park, Transit Station",1.783236075929574
 72,Park -> Hair Salon,1.7805549473253481
 73,Hair Salon -> Park,1.7805549473253481
-74,"Park, Transit Station, Real Estate -> Building Material",1.7783642431912752
-75,"Building Material -> Park, Transit Station, Real Estate",1.778364243191275
-76,"Building Material -> Park, Home Appliances",1.7722181490341302
-77,"Park, Home Appliances -> Building Material",1.7722181490341302
+74,"Real Estate, Park, Transit Station -> Building Material",1.7783642431912752
+75,"Building Material -> Real Estate, Park, Transit Station",1.778364243191275
+76,"Building Material -> Home Appliances, Park",1.7722181490341302
+77,"Home Appliances, Park -> Building Material",1.7722181490341302
 78,Hospital -> Park,1.7654459489340668
 79,Park -> Hospital,1.7654459489340666
 80,Park -> Real Estate,1.7583216552062673
 81,Real Estate -> Park,1.758321655206267
-82,"Transit Station, Home Appliances -> Building Material",1.7549273357959643
-83,"Building Material -> Transit Station, Home Appliances",1.7549273357959643
-84,"Building Material -> Transit Station, Real Estate",1.7520818633335475
-85,"Transit Station, Real Estate -> Building Material",1.7520818633335473
+82,"Home Appliances, Transit Station -> Building Material",1.7549273357959643
+83,"Building Material -> Home Appliances, Transit Station",1.7549273357959643
+84,"Building Material -> Real Estate, Transit Station",1.7520818633335475
+85,"Real Estate, Transit Station -> Building Material",1.7520818633335473
 86,"Building Material, Transit Station -> Home Appliances",1.749813595752701
 87,"Home Appliances -> Building Material, Transit Station",1.7498135957527008
 88,"Building Material -> Hair Salon, Transit Station",1.7468480628736605
 89,"Hair Salon, Transit Station -> Building Material",1.7468480628736605
-90,"Transit Station, Accountant Office -> Park",1.7455925903476888
-91,"Park -> Transit Station, Accountant Office",1.7455925903476885
-92,"Transit Station, Accountant Office -> Building Material",1.7453620805278947
-93,"Building Material -> Transit Station, Accountant Office",1.7453620805278947
-94,"Home Appliances -> Park, Real Estate",1.7438211014932365
-95,"Park, Real Estate -> Home Appliances",1.7438211014932365
-96,"Park, Real Estate -> Building Material",1.7416683085894091
-97,"Building Material -> Park, Real Estate",1.7416683085894091
+90,"Accountant Office, Transit Station -> Park",1.7455925903476888
+91,"Park -> Accountant Office, Transit Station",1.7455925903476885
+92,"Accountant Office, Transit Station -> Building Material",1.7453620805278947
+93,"Building Material -> Accountant Office, Transit Station",1.7453620805278947
+94,"Home Appliances -> Real Estate, Park",1.7438211014932365
+95,"Real Estate, Park -> Home Appliances",1.7438211014932365
+96,"Real Estate, Park -> Building Material",1.7416683085894091
+97,"Building Material -> Real Estate, Park",1.7416683085894091
 98,"Park, Building Material -> Home Appliances",1.7389944708756593
 99,"Home Appliances -> Park, Building Material",1.738994470875659
-100,"Transit Station, Elderly Care Home -> Park",1.7383004946111233
-101,"Park -> Transit Station, Elderly Care Home",1.7383004946111231
-102,"Home Appliances -> Transit Station, Real Estate",1.734483011932984
-103,"Transit Station, Real Estate -> Home Appliances",1.734483011932984
+100,"Elderly Care Home, Transit Station -> Park",1.7383004946111233
+101,"Park -> Elderly Care Home, Transit Station",1.7383004946111231
+102,"Home Appliances -> Real Estate, Transit Station",1.734483011932984
+103,"Real Estate, Transit Station -> Home Appliances",1.734483011932984
 104,"Heavy Industry, Transit Station -> Building Material",1.710555046233316
 105,"Building Material -> Heavy Industry, Transit Station",1.7105550462333157
 106,Building Material -> Real Estate,1.6980394573602686
@@ -119,14 +119,14 @@
 117,Building Material -> Hair Salon,1.6822097313457702
 118,"Building Material, Transit Station -> Heavy Industry",1.6710568448017258
 119,"Heavy Industry -> Building Material, Transit Station",1.6710568448017258
-120,"Transit Station, Home Appliances -> Park",1.6662969115873232
-121,"Park -> Transit Station, Home Appliances",1.666296911587323
+120,"Home Appliances, Transit Station -> Park",1.6662969115873232
+121,"Park -> Home Appliances, Transit Station",1.666296911587323
 122,Park -> Elderly Care Home,1.6518456762080365
 123,Elderly Care Home -> Park,1.6518456762080362
 124,"Transit Station -> Hair Salon, Building Material",1.646572155952442
 125,"Hair Salon, Building Material -> Transit Station",1.646572155952442
-126,"Hair Salon, Real Estate -> Transit Station",1.6384872267176422
-127,"Transit Station -> Hair Salon, Real Estate",1.6384872267176422
+126,"Real Estate, Hair Salon -> Transit Station",1.6384872267176422
+127,"Transit Station -> Real Estate, Hair Salon",1.6384872267176422
 128,Building Material -> Accountant Office,1.6327546256663128
 129,Accountant Office -> Building Material,1.6327546256663128
 130,Home Appliances -> Accountant Office,1.6317740796636053
@@ -137,18 +137,18 @@
 135,"Transit Station -> Real Estate, Accountant Office",1.624059613794908
 136,Driving School -> Building Material,1.6222873522299015
 137,Building Material -> Driving School,1.6222873522299015
-138,"Transit Station -> Elderly Care Home, Real Estate",1.6212195848765152
-139,"Elderly Care Home, Real Estate -> Transit Station",1.621219584876515
+138,"Transit Station -> Real Estate, Elderly Care Home",1.6212195848765152
+139,"Real Estate, Elderly Care Home -> Transit Station",1.621219584876515
 140,Hospital -> Transit Station,1.6176083565826762
 141,Transit Station -> Hospital,1.6176083565826762
-142,"Transit Station -> Park, Hair Salon",1.6175371638144573
-143,"Park, Hair Salon -> Transit Station",1.6175371638144571
+142,"Transit Station -> Hair Salon, Park",1.6175371638144573
+143,"Hair Salon, Park -> Transit Station",1.6175371638144571
 144,"Park, Transit Station -> Building Material",1.6158158878385447
 145,"Building Material -> Park, Transit Station",1.6158158878385447
-146,"Transit Station -> Park, Building Material, Real Estate",1.6116965673962445
-147,"Park, Building Material, Real Estate -> Transit Station",1.6116965673962442
-148,"Building Material, Home Appliances -> Park",1.60813523206149
-149,"Park -> Building Material, Home Appliances",1.60813523206149
+146,"Transit Station -> Real Estate, Park, Building Material",1.6116965673962445
+147,"Real Estate, Park, Building Material -> Transit Station",1.6116965673962442
+148,"Home Appliances, Building Material -> Park",1.60813523206149
+149,"Park -> Home Appliances, Building Material",1.60813523206149
 150,"Park -> Heavy Industry, Transit Station",1.6069930905614465
 151,"Heavy Industry, Transit Station -> Park",1.6069930905614465
 152,Heavy Industry -> Accountant Office,1.6063065050627618
@@ -161,8 +161,8 @@
 159,Transit Station -> Bank,1.5978135022776476
 160,Heavy Industry -> Real Estate,1.592999892602073
 161,Real Estate -> Heavy Industry,1.5929998926020728
-162,"Transit Station -> Building Material, Real Estate",1.5923566447980713
-163,"Building Material, Real Estate -> Transit Station",1.5923566447980713
+162,"Transit Station -> Real Estate, Building Material",1.5923566447980713
+163,"Real Estate, Building Material -> Transit Station",1.5923566447980713
 164,"Park, Transit Station -> Home Appliances",1.5922750090135063
 165,"Home Appliances -> Park, Transit Station",1.5922750090135063
 166,Fishing -> Transit Station,1.5872288882120862
@@ -173,16 +173,16 @@
 171,"Transit Station -> Real Estate, Home Appliances",1.5851156191044042
 172,Park -> Accountant Office,1.5812787226191676
 173,Accountant Office -> Park,1.5812787226191676
-174,"Park, Real Estate -> Transit Station",1.578439762969558
-175,"Transit Station -> Park, Real Estate",1.5784397629695577
-176,"Transit Station -> Park, Elderly Care Home",1.5720835428995825
-177,"Park, Elderly Care Home -> Transit Station",1.5720835428995823
+174,"Real Estate, Park -> Transit Station",1.578439762969558
+175,"Transit Station -> Real Estate, Park",1.5784397629695577
+176,"Transit Station -> Elderly Care Home, Park",1.5720835428995825
+177,"Elderly Care Home, Park -> Transit Station",1.5720835428995823
 178,"Park, Heavy Industry -> Transit Station",1.5627367521507982
 179,"Transit Station -> Park, Heavy Industry",1.5627367521507982
-180,"Transit Station -> Park, Home Appliances",1.5559037048358964
-181,"Park, Home Appliances -> Transit Station",1.5559037048358964
-182,"Transit Station -> Building Material, Accountant Office",1.5527054105987956
-183,"Building Material, Accountant Office -> Transit Station",1.5527054105987954
+180,"Transit Station -> Home Appliances, Park",1.5559037048358964
+181,"Home Appliances, Park -> Transit Station",1.5559037048358964
+182,"Transit Station -> Accountant Office, Building Material",1.5527054105987956
+183,"Accountant Office, Building Material -> Transit Station",1.5527054105987954
 184,"Park, Building Material -> Transit Station",1.5493071729132013
 185,"Transit Station -> Park, Building Material",1.549307172913201
 186,Transit Station -> Laundry ,1.5477735934157375
@@ -197,8 +197,8 @@
 195,"Park, Transit Station -> Heavy Industry",1.5045312764875403
 196,Elderly Care Home -> Transit Station,1.4938955669787273
 197,Transit Station -> Elderly Care Home,1.4938955669787273
-198,"Building Material, Home Appliances -> Transit Station",1.4869448170878654
-199,"Transit Station -> Building Material, Home Appliances",1.4869448170878652
+198,"Home Appliances, Building Material -> Transit Station",1.4869448170878654
+199,"Transit Station -> Home Appliances, Building Material",1.4869448170878652
 200,"Building Material, Heavy Industry -> Transit Station",1.4853580347837627
 201,"Transit Station -> Building Material, Heavy Industry",1.4853580347837627
 202,Park -> Building Material,1.4829033407103225
