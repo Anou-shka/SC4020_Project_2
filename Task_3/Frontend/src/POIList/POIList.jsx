@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import './POIList.css';
 
-const POIList = ({ nearestPOI = [], onClose, onClick }) => {
+const POIList = ({ suggestions = [], onClose, onClick }) => {
   const poiListRef = useRef(null);
 
   const handleClickOutside = (event) => {
@@ -21,9 +21,9 @@ const POIList = ({ nearestPOI = [], onClose, onClick }) => {
     <div className="poi-list-container">
       <div className="poi-list" ref={poiListRef}>
         <h2>🌎Popular spots near you🌎</h2>
-        {nearestPOI.length > 0 ? (
+        {suggestions.length > 0 ? (
           <ul>
-            {nearestPOI.map((poi, index) => (
+            {suggestions.map((poi, index) => (
               <li key={index} onClick={() => onClick(poi)}>
                 <p>🏷️{poi.category}</p>
                 <p>🚗{poi.distance} km away</p>
