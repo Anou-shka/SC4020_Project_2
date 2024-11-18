@@ -53,6 +53,19 @@ By leveraging the Trackintel library for staypoint and tripleg generation and ap
 - **View Location History**: Keep track of previously visited locations in the same city.
 - **Next Location Suggestion**: Get personalized recommendations for the next POI to visit.
 
+
+### Main UI
+![Main UI](./README_Screenshots/Main.png)
+
+### Coordinate Box
+![Coordinate Box](./README_Screenshots/Coordinates_Input.png)
+
+### Location History
+![Location History](./README_Screenshots/History.png)
+
+### Suggestion List
+![Suggestion List](./README_Screenshots/Suggestions.png)
+
 ## Project Structure
 1. **Frontend**: Built with React for a fast and responsive UI.
 2. **Backend**: Built with Flask, integrating with an LSTM model for next-location suggestions based on user movement patterns.
