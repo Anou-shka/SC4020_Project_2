@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect, useCallback, useMemo } from 'react';
-import './Map.css';
+import './MapFrame.css';
 
 const Cell = React.memo(({ x, y, offsetX, offsetY, currentX, currentY }) => {
   return (
@@ -31,7 +31,7 @@ const Marker = ({ x, y, offsetX, offsetY }) => {
   );
 };
 
-const Map = ({ currentX, currentY }) => {
+const MapFrame = ({ currentX, currentY }) => {
   const [offsetX, setOffsetX] = useState(0);
   const [offsetY, setOffsetY] = useState(0);
   const mapRef = useRef(null);
@@ -110,4 +110,4 @@ const Map = ({ currentX, currentY }) => {
   );
 };
 
-export default Map;
+export default MapFrame;
