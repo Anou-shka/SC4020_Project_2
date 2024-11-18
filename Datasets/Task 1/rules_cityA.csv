@@ -1,0 +1,31 @@
+,rule,lift
+0,Real Estate -> Hair Salon,1.9110889143312246
+1,Hair Salon -> Real Estate,1.9110889143312244
+2,Real Estate -> Building Material,1.645163745326638
+3,Building Material -> Real Estate,1.645163745326638
+4,Building Material -> Hair Salon,1.6010283235047087
+5,Hair Salon -> Building Material,1.6010283235047087
+6,Home Appliances -> Real Estate,1.5709576163242167
+7,Real Estate -> Home Appliances,1.5709576163242165
+8,Hair Salon -> Home Appliances,1.5383141317263294
+9,Home Appliances -> Hair Salon,1.5383141317263291
+10,Home Appliances -> Building Material,1.4526442667185915
+11,Building Material -> Home Appliances,1.4526442667185913
+12,Heavy Industry -> Laundry ,1.4105533303040778
+13,Laundry  -> Heavy Industry,1.4105533303040778
+14,Real Estate -> Heavy Industry,1.4029817955937118
+15,Heavy Industry -> Real Estate,1.4029817955937116
+16,Heavy Industry -> Accountant Office,1.3908757265772114
+17,Accountant Office -> Heavy Industry,1.3908757265772111
+18,Building Material -> Transit Station,1.3808569434955078
+19,Transit Station -> Building Material,1.3808569434955076
+20,Heavy Industry -> Hair Salon,1.3651453521893262
+21,Hair Salon -> Heavy Industry,1.3651453521893262
+22,Building Material -> Heavy Industry,1.32232116922251
+23,Heavy Industry -> Building Material,1.3223211692225099
+24,Heavy Industry -> Home Appliances,1.2955980118333508
+25,Home Appliances -> Heavy Industry,1.2955980118333508
+26,Transit Station -> Heavy Industry,1.1961677935075379
+27,Heavy Industry -> Transit Station,1.1961677935075379
+28,Church -> Heavy Industry,1.109720408132265
+29,Heavy Industry -> Church,1.1097204081322647

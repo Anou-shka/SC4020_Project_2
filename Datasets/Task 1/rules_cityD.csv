@@ -1,0 +1,143 @@
+,rule,lift
+0,Hospital -> Hair Salon,3.1955427412141533
+1,Hair Salon -> Hospital,3.195542741214153
+2,Real Estate -> Laundry ,2.986420818962372
+3,Laundry  -> Real Estate,2.986420818962372
+4,"Transit Station, Building Material -> Hair Salon",2.8603913416362143
+5,"Hair Salon -> Transit Station, Building Material",2.8603913416362143
+6,Real Estate -> Accountant Office,2.839445562794986
+7,Accountant Office -> Real Estate,2.839445562794986
+8,Hair Salon -> Real Estate,2.798925954655534
+9,Real Estate -> Hair Salon,2.798925954655534
+10,Laundry  -> Hair Salon,2.7905227579488283
+11,Hair Salon -> Laundry ,2.7905227579488283
+12,"Heavy Industry, Building Material -> Hair Salon",2.572829530324595
+13,"Hair Salon -> Heavy Industry, Building Material",2.572829530324595
+14,Laundry  -> Accountant Office,2.5547430414887815
+15,Accountant Office -> Laundry ,2.5547430414887815
+16,Driving School -> Laundry ,2.534193645537803
+17,Laundry  -> Driving School,2.5341936455378025
+18,Grocery Store -> Hair Salon,2.5109099246245443
+19,Hair Salon -> Grocery Store,2.510909924624544
+20,Hospital -> Transit Station,2.3842930157775717
+21,Transit Station -> Hospital,2.3842930157775717
+22,Accountant Office -> Hair Salon,2.364954442844582
+23,Hair Salon -> Accountant Office,2.3649544428445815
+24,"Transit Station -> Building Material, Hair Salon",2.293407777176721
+25,"Building Material, Hair Salon -> Transit Station",2.293407777176721
+26,"Building Material -> Heavy Industry, Hair Salon",2.2626709478376816
+27,"Heavy Industry, Hair Salon -> Building Material",2.262670947837681
+28,Driving School -> Hair Salon,2.240297433437275
+29,Hair Salon -> Driving School,2.240297433437275
+30,"Building Material -> Transit Station, Hair Salon",2.217954748547322
+31,"Transit Station, Hair Salon -> Building Material",2.217954748547322
+32,Real Estate -> Building Material,2.2169800196624205
+33,Building Material -> Real Estate,2.2169800196624205
+34,Hospital -> Building Material,2.208105645493466
+35,Building Material -> Hospital,2.2081056454934656
+36,Laundry  -> Transit Station,2.1436990985908446
+37,Transit Station -> Laundry ,2.1436990985908446
+38,Hospital -> Heavy Industry,2.1330465972520285
+39,Heavy Industry -> Hospital,2.1330465972520285
+40,"Building Material -> Home Appliances, Heavy Industry",2.1260698320685805
+41,"Home Appliances, Heavy Industry -> Building Material",2.1260698320685805
+42,"Building Material, Hair Salon -> Heavy Industry",2.12304260383092
+43,"Heavy Industry -> Building Material, Hair Salon",2.1230426038309194
+44,Heavy Industry -> Bank,2.1172794640376855
+45,Bank -> Heavy Industry,2.1172794640376855
+46,"Transit Station, Heavy Industry -> Building Material",2.0923958605153548
+47,"Building Material -> Transit Station, Heavy Industry",2.0923958605153548
+48,Transit Station -> Real Estate,2.051404479910682
+49,Real Estate -> Transit Station,2.0514044799106816
+50,Hair Salon -> Community Center,2.046842646243438
+51,Community Center -> Hair Salon,2.046842646243438
+52,"Heavy Industry -> Transit Station, Building Material",2.0337669325881365
+53,"Transit Station, Building Material -> Heavy Industry",2.0337669325881365
+54,Real Estate -> Heavy Industry,2.019809142308215
+55,Heavy Industry -> Real Estate,2.019809142308215
+56,Laundry  -> Building Material,2.003207252009177
+57,Building Material -> Laundry ,2.003207252009177
+58,Transit Station -> Hair Salon,2.0028220292968864
+59,Hair Salon -> Transit Station,2.0028220292968864
+60,Heavy Industry -> Laundry ,1.9924971807440783
+61,Laundry  -> Heavy Industry,1.9924971807440781
+62,"Transit Station -> Heavy Industry, Building Material",1.9761017845361006
+63,"Heavy Industry, Building Material -> Transit Station",1.9761017845361004
+64,"Heavy Industry, Building Material -> Home Appliances",1.9486976175070556
+65,"Home Appliances -> Heavy Industry, Building Material",1.9486976175070556
+66,Home Appliances -> Real Estate,1.9480149794956252
+67,Real Estate -> Home Appliances,1.9480149794956252
+68,"Home Appliances, Building Material -> Heavy Industry",1.9419734182359014
+69,"Heavy Industry -> Home Appliances, Building Material",1.9419734182359014
+70,Building Material -> Accountant Office,1.9403429702295933
+71,Accountant Office -> Building Material,1.9403429702295933
+72,Hair Salon -> Building Material,1.9369292607190445
+73,Building Material -> Hair Salon,1.9369292607190445
+74,Elderly Care Home -> Building Material,1.9000883537682078
+75,Building Material -> Elderly Care Home,1.9000883537682076
+76,Transit Station -> Grocery Store,1.8829164253212316
+77,Grocery Store -> Transit Station,1.8829164253212314
+78,Accountant Office -> Transit Station,1.8689999395191337
+79,Transit Station -> Accountant Office,1.8689999395191337
+80,Transit Station -> Driving School,1.8642866700703737
+81,Driving School -> Transit Station,1.8642866700703737
+82,Driving School -> Heavy Industry,1.8483473376880086
+83,Heavy Industry -> Driving School,1.8483473376880086
+84,Heavy Industry -> Accountant Office,1.8436798850567446
+85,Accountant Office -> Heavy Industry,1.8436798850567444
+86,Driving School -> Building Material,1.8373920928680505
+87,Building Material -> Driving School,1.8373920928680505
+88,Heavy Industry -> Hair Salon,1.8174022807174242
+89,Hair Salon -> Heavy Industry,1.8174022807174242
+90,Transit Station -> Elderly Care Home,1.815743898045276
+91,Elderly Care Home -> Transit Station,1.8157438980452758
+92,Laundry  -> Home Appliances,1.80560115110055
+93,Home Appliances -> Laundry ,1.8056011511005499
+94,Home Appliances -> Hair Salon,1.7880476305753645
+95,Hair Salon -> Home Appliances,1.7880476305753643
+96,Home Appliances -> Accountant Office,1.760519963471226
+97,Accountant Office -> Home Appliances,1.760519963471226
+98,Building Material -> Grocery Store,1.7548419377216913
+99,Grocery Store -> Building Material,1.754841937721691
+100,Heavy Industry -> Elderly Care Home,1.7491635163703825
+101,Elderly Care Home -> Heavy Industry,1.7491635163703825
+102,Heavy Industry -> Grocery Store,1.7352769125271899
+103,Grocery Store -> Heavy Industry,1.7352769125271896
+104,Driving School -> Home Appliances,1.7265724547727594
+105,Home Appliances -> Driving School,1.7265724547727592
+106,Community Center -> Transit Station,1.6376888337414863
+107,Transit Station -> Community Center,1.6376888337414863
+108,Home Appliances -> Grocery Store,1.627556935855969
+109,Grocery Store -> Home Appliances,1.6275569358559687
+110,Community Center -> Building Material,1.6184419007464095
+111,Building Material -> Community Center,1.6184419007464095
+112,Home Appliances -> Building Material,1.6038458722533568
+113,Building Material -> Home Appliances,1.6038458722533566
+114,Heavy Industry -> Building Material,1.5983116225327427
+115,Building Material -> Heavy Industry,1.5983116225327427
+116,Transit Station -> Building Material,1.5529933144858366
+117,Building Material -> Transit Station,1.5529933144858366
+118,Church -> Community Center,1.5307343759114078
+119,Community Center -> Church,1.5307343759114076
+120,Community Center -> Home Appliances,1.5250180302313074
+121,Home Appliances -> Community Center,1.5250180302313074
+122,Community Center -> Heavy Industry,1.5203211158651242
+123,Heavy Industry -> Community Center,1.520321115865124
+124,Transit Station -> Heavy Industry,1.5094784448454348
+125,Heavy Industry -> Transit Station,1.5094784448454346
+126,Home Appliances -> Heavy Industry,1.4649688377511976
+127,Heavy Industry -> Home Appliances,1.4649688377511974
+128,Transit Station -> Home Appliances,1.441615086997461
+129,Home Appliances -> Transit Station,1.4416150869974609
+130,Church -> Hair Salon,1.4170321248397943
+131,Hair Salon -> Church,1.4170321248397941
+132,Accountant Office -> Church,1.2993164566608488
+133,Church -> Accountant Office,1.2993164566608488
+134,Church -> Building Material,1.2332658343451068
+135,Building Material -> Church,1.2332658343451068
+136,Home Appliances -> Church,1.2144458326979544
+137,Church -> Home Appliances,1.2144458326979544
+138,Church -> Transit Station,1.1671503198159243
+139,Transit Station -> Church,1.1671503198159243
+140,Church -> Heavy Industry,1.1329609604315691
+141,Heavy Industry -> Church,1.132960960431569
