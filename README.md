@@ -52,8 +52,6 @@ We present the top 3 association rules (by lift) for each city, omitting the inv
 This table summarizes the strongest associations (by lift) between Points of Interest (POIs) for each city, rounded to two decimal places for clarity.
 
 
-
-
 # Task 2: Mining Sequential Patterns
 
 ## Overview
