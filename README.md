@@ -19,20 +19,20 @@ Used the mlxtend.frequent_patterns.apriori API to mine frequent itemsets.
 ### Algorithm Steps
 
 #### Generate F₁:
-1. Compute support for all 1-itemsets.
-2. Retain those with support ≥ 'min_support'.
+- Compute support for all 1-itemsets.
+- Retain those with support ≥ 'min_support'.
 
 #### Candidate Generation (Cₖ₊₁):
-1. Combine frequent k-itemsets to create candidate (k+1)-itemsets.
+- Combine frequent k-itemsets to create candidate (k+1)-itemsets.
 
 #### Support Counting:
-1. Evaluate candidate support using a mask to count occurrences across grid cells.
+- Evaluate candidate support using a mask to count occurrences across grid cells.
 
 #### Candidate Elimination:
-1. Remove candidates with support below 'min_support'.
+- Remove candidates with support below 'min_support'.
 
 #### Iterate:
-1. Repeat steps until no more frequent itemsets are found.
+- Repeat steps until no more frequent itemsets are found.
 
 ### Association Rule Mining
 We used the `mlxtend.frequent_patterns.association_rules` API to generate association rules. The following parameters were used:
