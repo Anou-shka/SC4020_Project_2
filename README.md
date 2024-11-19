@@ -1,6 +1,59 @@
 # SC4020_Project_2
 # Task 1 
 
+## Overview
+The objective of **Task 1** was to identify the common combinations of POIs that frequently co-occur within the same grid and analyze these patterns of different POIs within each city. This was done with the implementation of the **Apriori algorithm** that was able to achieve our goal of identifying the common combinations of POIs.
+
+## Data Preprocessing
+
+### 1. Basket Creation
+- **Creation of grid_id column**: Created a new column 'grid_id' by combining the 'x' and 'y' coordinates of each grid cell.
+- **Grouping by grid_id column**: Grouped the data by the 'grid_id' column to get lists of POI categories present for their corresponding grid cells.
+
+### 2. One-Hot Encoding
+- **Creation of one-hot encoded baskets**: Encoding each basket to have a one-hot encoded row. If the POI was present within the grid cell it will have the value of '1' and if it was not present it will have the value of '0'
+
+## Apriori Algorithm
+Used the mlxtend.frequent_patterns.apriori API to mine frequent itemsets.
+
+### Algorithm Steps
+
+#### Generate F₁:
+1. Compute support for all 1-itemsets.
+2. Retain those with support ≥ 'min_support'.
+
+#### Candidate Generation (Cₖ₊₁):
+1. Combine frequent k-itemsets to create candidate (k+1)-itemsets.
+
+#### Support Counting:
+1. Evaluate candidate support using a mask to count occurrences across grid cells.
+
+#### Candidate Elimination:
+1. Remove candidates with support below 'min_support'.
+
+#### Iterate:
+1. Repeat steps until no more frequent itemsets are found.
+
+### Association Rule Mining
+We used the `mlxtend.frequent_patterns.association_rules` API to generate association rules. The following parameters were used:
+- `metric = "lift"`
+- `min_threshold = 1`  
+This ensures that the occurrence of A and B in the rule A → B is positively correlated.
+
+## Results Summary
+We present the top 3 association rules (by lift) for each city, omitting the inverse of each rule (B → A) as they have the same lift.
+
+| Rank | City A                           | City B                            | City C                                | City D                                        |
+|------|----------------------------------|-----------------------------------|---------------------------------------|-----------------------------------------------|
+| 1    | Real Estate → Hair Salon: **1.91** | Hair Salon → Laundry: **3.49**    | Hair Salon → Transit Station, Real Estate: **2.24** | Hospital → Hair Salon: **3.20**               |
+| 2    | Real Estate → Building Material: **1.65** | Real Estate → Hair Salon: **3.38** | Hair Salon → Park, Real Estate: **2.22** | Real Estate → Laundry: **2.99**              |
+| 3    | Building Material → Hair Salon: **1.60** | Hair Salon → Building Material, Transit Station: **3.26** | Real Estate → Park, Hair Salon: **2.19** | Building Material, Transit Station → Hair Salon: **2.86** |
+
+This table summarizes the strongest associations (by lift) between Points of Interest (POIs) for each city, rounded to two decimal places for clarity.
+
+
+
+
 # Task 2: Mining Sequential Patterns
 
 ## Overview
